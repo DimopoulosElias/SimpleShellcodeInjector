@@ -1,6 +1,3 @@
-# ++++++++++++++++++++++++++
-# Release Date: 21/08/2018
-# ++++++++++++++++++++++++++
 # SimpleShellcodeInjector (SSI) 
 
 [![N|Solid](https://cdn.pixabay.com/photo/2015/12/06/17/53/fibonacci-1079776_960_720.jpg)](https://www.linkedin.com/in/dimopouloselias)
@@ -19,7 +16,7 @@ At the moment, it has been actively tested against the following solutions (defa
   
  Victim's OS: Windows 10 64 bit
 ### AntiScan
-*url: https://antiscan.me/scan/result?id=9c3c0d892c3a0e84f8cf8bb5843b5591*
+*url: https://antiscan.me/scan/result?id=84e03dfa0eadadfc1c9d74fe8266413c*
 
 Detection rate **(0/30)** 
 Scan Date: **2018-08-16 13:11:00**
