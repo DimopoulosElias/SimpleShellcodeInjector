@@ -7,12 +7,13 @@ It DOES NOT inject the shellcode in a third party application and it stays under
 At the moment, many antivirus solutions will not detect it, even when you execute a meterpreter's shellcode, without obfuscation.   
 *Let me note that, although you can use SSI in order to recieve a meterpreter, it is NOT a stager for metasploit. It just executes the shellcode you feed it.*
 ## Antivirus Detection (Rate: 0/30)
-### Activly Tests
-At the moment, it has been actively tested against the following solutions (default settings - fully updated) and it returned a reverse https meterpreter with success:
+### Actively Tested
+At the moment, it has been actively tested against the following solutions (default settings - fully updated) and it returned a reverse meterpreter with success:
 
-  - Windows Defender
-  - Symantec Endpoint Protection
-  - Kaspersky
+  - Windows Defender 
+  - Symantec Endpoint Protection 
+  - Kaspersky 
+  - ESET - Smart Security Premium (trial version)
   
  Victim's OS: Windows 10 64 bit
 ### AntiScan
