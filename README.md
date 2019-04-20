@@ -20,32 +20,59 @@ At the moment, it has been actively tested against the following solutions (defa
 *url:  https://antiscan.me/scan/new/result?id=2aZkjhzd1sHe*
 
 Detection rate **(0/26)** 
+
 Scan Date: **20-04-2019 20:00:38**
+
  d-Aware Antivirus: **Clean**
+ 
  AhnLab V3 Internet Security: **Clean**
+ 
  Alyac Internet Security: **Clean**
+ 
  Avast: **Clean**
+ 
  AVG: **Clean**
+ 
  Avira: **Clean**
+ 
  BitDefender: **Clean**
+ 
  BullGuard: **Clean**
+ 
  ClamAV: **Clean**
+ 
  Comodo Antivirus: **Clean**
+ 
  DrWeb: **Clean**
+ 
  Emsisoft: **Clean**
+ 
  Eset NOD32: **Clean**
+ 
  Fortinet: **Clean**
+ 
  F-Secure: **Clean**
+ 
  IKARUS: **Clean**
+ 
  Kaspersky: **Clean**
+ 
  McAfee: **Clean**
+ 
  Malwarebytes: **Clean**
+ 
  Panda Antivirus: **Clean**
+ 
  Sophos: **Clean**
+ 
  Trend Micro Internet Security: **Clean**
+ 
  Webroot SecureAnywhere: **Clean**
+ 
  Windows 10 Defender: **Clean**
+ 
  Zone Alarm: **Clean**
+ 
  Zillya: **Clean**
 
 ## Example Usage
