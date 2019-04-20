@@ -17,40 +17,36 @@ At the moment, it has been actively tested against the following solutions (defa
   
  Victim's OS: Windows 10 64 bit
 ### AntiScan
-*url: https://antiscan.me/scan/result?id=84e03dfa0eadadfc1c9d74fe8266413c*
+*url:  https://antiscan.me/scan/new/result?id=2aZkjhzd1sHe*
 
-Detection rate **(0/30)** 
-Scan Date: **2018-08-16 13:11:00**
- - Ad-Aware - Antivirus: - **Clean**
- - AhnLab - V3 - Light: - **Clean**
- - Arcavir: - **Clean**
- - Avast: - **Clean**
- - AVG: - **Clean**
- - Avira: - **Clean**
- - 360 - Total - Security: - **Clean**
- - BitDefender: - **Clean**
- - BullGuard: - **Clean**
- - ClamAV: - **Clean**
- - DrWeb: - **Clean**
- - Emsisoft: - **Clean**
- - eScan: - **Clean**
- - Eset - NOD32: - **Clean**
- - Fortinet: - **Clean**
- - F-PROT: - **Clean**
- - F-Secure: - **Clean**
- - G - Data: - **Clean**
- - IKARUS: - **Clean**
- - K7: - **Clean**
- - Kaspersky: - **Clean**
- - Malwarebytes: - **Clean**
- - McAfee: - **Clean**
- - Norton - Security: - **Clean**
- - Sophos: - **Clean**
- - TrustPort: - **Clean**
- - VBA32: - **Clean**
- - Windows - Defender: - **Clean**
- - Zillya: - **Clean**
- - Zone - Alarm: - **Clean**
+Detection rate **(0/26)** 
+Scan Date: **20-04-2019 20:00:38**
+ d-Aware Antivirus: **Clean**
+ AhnLab V3 Internet Security: **Clean**
+ Alyac Internet Security: **Clean**
+ Avast: **Clean**
+ AVG: **Clean**
+ Avira: **Clean**
+ BitDefender: **Clean**
+ BullGuard: **Clean**
+ ClamAV: **Clean**
+ Comodo Antivirus: **Clean**
+ DrWeb: **Clean**
+ Emsisoft: **Clean**
+ Eset NOD32: **Clean**
+ Fortinet: **Clean**
+ F-Secure: **Clean**
+ IKARUS: **Clean**
+ Kaspersky: **Clean**
+ McAfee: **Clean**
+ Malwarebytes: **Clean**
+ Panda Antivirus: **Clean**
+ Sophos: **Clean**
+ Trend Micro Internet Security: **Clean**
+ Webroot SecureAnywhere: **Clean**
+ Windows 10 Defender: **Clean**
+ Zone Alarm: **Clean**
+ Zillya: **Clean**
 
 ## Example Usage
 
