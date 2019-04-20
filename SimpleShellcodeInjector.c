@@ -1,4 +1,5 @@
-#include <winsock2.h>
+#include <stdio.h>
+#include <Windows.h>
 
 int main(int argc, char *argv[]) {
     //Uncomment to Hide cmd window
@@ -15,7 +16,7 @@ int main(int argc, char *argv[]) {
     " +-+-+ +-+-+-+-+-+-+-+-+\n";
 
 
-    unsigned char *shellcode=argv[1];
+    char *shellcode=argv[1];
     unsigned int iterations=strlen(shellcode);
     unsigned int memory_allocation=sizeof(char)*strlen(shellcode);
    
