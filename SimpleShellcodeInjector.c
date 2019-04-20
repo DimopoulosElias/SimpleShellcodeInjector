@@ -23,7 +23,16 @@ int main(int argc, char *argv[]) {
  
     printf("%s\n\n", &logo);
 
-    for(unsigned int i = 0; i< iterations; i++) {
+    /*
+    convert to shellcode:
+
+    Iterations is equal to strlen(shellcode) which is the total number of characters (in the above example 1666 shellcode[0] to shellcode[1665]).
+    We convert in pairs, so for i=0 we are going to read shellcode[0] and shellcode[1] in order to create one byte from those 2 chars.
+    The last byte will be created for i=1664 which will convert the characters shellcode[1664] and shellcode[1665]. So the last time we are going to enter the loop
+    will be for i = 1664, meaning i<16665 which is i < 1666-1 or i < iterations-1
+    */
+
+    for(unsigned int i = 0; i< iterations-1; i++) {
         sscanf(shellcode+2*i, "%2X", &char_in_hex);
         shellcode[i] = (char)char_in_hex;
     }
