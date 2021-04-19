@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <Windows.h>
+#include <windows.h>
 
 int main(int argc, char *argv[]) {
     //Uncomment to Hide cmd window
